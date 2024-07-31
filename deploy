@@ -1,0 +1,6 @@
+nssm stop nuxt-site
+git restore .
+git pull
+yarn install
+yarn build
+nssm start nuxt-site
