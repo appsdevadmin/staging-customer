@@ -5,7 +5,8 @@ import * as pwaUtils from './commons/pwa-utils'
 export default {
   server: {
     port: process.env.PORT ?? 4242,
-    host: process.env.HOST ?? 'localhost' // for mobile debug -> 0.0.0.0
+    host: process.env.HOST ?? 'localhost', // for mobile debug -> 0.0.0.0,
+    buildDir: 'dist'
   },
 
   env: {
